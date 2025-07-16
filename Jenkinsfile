@@ -4,7 +4,11 @@ pipeline {
   {
     stage('Build')
     {
-      echo "this is build stage"
+      steps{
+
+          echo "this is build stage"
+      }
+    
     }
   }
 }
